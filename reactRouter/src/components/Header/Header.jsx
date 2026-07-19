@@ -40,13 +40,42 @@ export default function Header() {
                                 <NavLink
                                   to="/"
                                   className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 
+                                    `block py-4 px-3 duration-200 rounded-sm 
                                     ${isActive ? 'bg-orange-700 text-white' : 'hover:bg-gray-50'} 
                                     border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0
-                                    hover:text-orange-700 lg:p-0`
+                                    hover:text-orange-700 lg:p-1`
     }
                                     >
                                         Home
+                                    </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                     
+                                  to="/about"
+                                  className={({isActive}) =>
+                                    `block py-4 px-3 duration-200 rounded-sm 
+                                    ${isActive ? 'bg-orange-700 text-white' : 'hover:bg-gray-50'} 
+                                    border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0
+                                    hover:text-orange-700 lg:p-1`
+    }
+                                    >
+                                    About
+                                    </NavLink>
+                            </li>
+                            
+                            <li>
+                                <NavLink
+                                     
+                                  to="/contact"
+                                  className={({isActive}) =>
+                                    `block py-4 px-3 duration-200 rounded-sm 
+                                    ${isActive ? 'bg-orange-700 text-white' : 'hover:bg-gray-50'} 
+                                    border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0
+                                    hover:text-orange-700 lg:p-1`
+    }
+                                    >
+                                    Contact
                                     </NavLink>
                             </li>
                             

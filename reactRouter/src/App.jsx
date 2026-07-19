@@ -1,9 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
+import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
+import Home from './components/Home/Home'
 import './App.css'
 
 function App() {
   return (
-    <h1 className='bg-amber-500 text-center text-4xl font-bold underline'>hhehhehhehe</h1>
+   <></>
   )
 }
 
-export default App
+export default App;
